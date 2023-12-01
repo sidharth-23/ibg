@@ -1,0 +1,189 @@
+@media screen and (max-width: 1080px) {
+  nav {
+   
+    flex-direction: column;
+    height:auto;
+
+    // background-color: aqua;
+    .linksinnav {
+      margin: 0;
+     ul{
+      padding-left: 0;
+     }
+      li {
+        margin: 0;
+        padding: 0;
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .desc{
+    overflow-y: scroll;
+    p{
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+  .banner .imgholder img{
+    width: 200px;
+  }
+
+  .logoimg {
+    justify-content: center;
+  }
+  .button{
+    justify-content: center;
+  }
+  .frame1 .companyname h1{
+    font-size: 25px;
+  }
+  .frame1 .companymotto h2{
+    font-size: 25px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 580px) {
+  nav .linksinnav li a{
+    font-size: 12px;
+  }
+  .frame4 div h1{
+    font-size: 30px;
+  }
+  .numbers h1{
+    font-size: 30px;
+  }
+  .clients h1{
+    font-size: 30px;
+  }
+  .desc p{
+    font-size: 10px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  nav .linksinnav li a{
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  nav ul li a{
+    font-size: 10px;
+    
+  }
+}
+
+
+@media screen and (max-width: 700px)
+{
+  .firstrow img, .secondrow img{
+    margin: 20px;
+  }
+
+
+  .services{
+    display: block;
+  }
+    
+}
+@media screen and (max-width: 1233px){
+  .linediv2{
+    display: none;
+  }
+  .frame3 .service-grid{
+    grid-template-columns: 50% 50% !important
+    ;
+  }
+}
+
+@media screen and (max-width: 890px){
+  .desc p{
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .matter{
+    margin: 0 auto;
+    .matter-desc p{
+      font-size: 24px;
+    }
+  }
+  
+  
+  .numbers-desc{
+    // display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .matter{
+    // display: block;
+    width: 80%;max-width: 100%;
+  }
+  .linediv{
+    display: none;
+  }
+  .info h2{
+    font-size: 20px;
+  }
+  .footer1{
+    height: auto;
+  display: block;  }
+}
+
+
+
+
+@media screen and (max-width: 960px){
+  .getintouch{
+   flex-direction: column;
+   .info p {
+    // font-size: 20px;
+    margin-top: 30px;
+   }
+  }
+  .line{
+    display: none;
+  }
+  .footercontents ul li{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    a{
+      text-align: center;
+    }
+  }
+  .footercontents {
+    display: flex;
+    justify-content: center;
+  }
+  .footer2{
+    flex-direction: column;
+  }
+  .footercontents ul{
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 1200px){
+  .container{
+    max-width: 850px;
+  }
+}
+@media screen and (max-width: 1000px)
+{
+  .container{
+    max-width: 650px;
+  }
+}
+@media screen and (max-width: 800px)
+{
+  .container{
+    max-width: 450px;
+  }
+}
+
