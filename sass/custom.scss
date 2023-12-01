@@ -30,7 +30,7 @@ nav {
     a {
       color: #353766;
       font-size: 16px;
-      font-weight: 400;
+      font-weight: 300;
       text-transform: uppercase;
       &:hover {
         color: orange;
@@ -50,6 +50,8 @@ nav {
       background-color: orange;
       color: white;
       border: none;
+      font-size: 17px;
+      font-weight: 300;
       &:hover {
         background-color: rgb(206, 143, 26);
         cursor: pointer;
@@ -63,7 +65,7 @@ nav {
 
   // width: 1366 px;
   .banner {
-    height: 700px;
+    height: 100vh;
     background-image: url(../images/Rectangle\ 23.png);
     background-size: cover;
     // position: relative;
