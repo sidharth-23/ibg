@@ -1,189 +1,298 @@
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1180px) {
   nav {
-   
-    flex-direction: column;
-    height:auto;
+
+    // flex-direction: column;
+    // height:auto;
 
     // background-color: aqua;
     .linksinnav {
       margin: 0;
-     ul{
-      padding-left: 0;
-     }
+
+      ul {
+        padding-left: 0;
+      }
+
       li {
         margin: 0;
         padding: 0;
+
         a {
           font-size: 15px;
         }
       }
     }
   }
-  .desc{
-    overflow-y: scroll;
-    p{
-    font-size: 25px;
-    line-height: 30px;
-  }
-}
 
-  .banner .imgholder img{
+  .desc {
+    overflow-y: scroll;
+
+    p {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  .banner .imgholder img {
     width: 200px;
   }
 
   .logoimg {
     justify-content: center;
   }
-  .button{
+
+  .button {
     justify-content: center;
   }
-  .frame1 .companyname h1{
+
+  .frame1 .companyname h1 {
     font-size: 25px;
   }
-  .frame1 .companymotto h2{
+
+  .frame1 .companymotto h2 {
     font-size: 25px;
     line-height: 50px;
   }
 }
+
 @media screen and (max-width: 580px) {
-  nav .linksinnav li a{
+  nav .linksinnav li a {
     font-size: 12px;
   }
-  .frame4 div h1{
+
+  .frame4 div h1 {
     font-size: 30px;
   }
-  .numbers h1{
+
+  .numbers h1 {
     font-size: 30px;
   }
-  .clients h1{
+
+  .clients h1 {
     font-size: 30px;
   }
-  .desc p{
+
+  .desc p {
     font-size: 10px;
     line-height: 30px;
   }
 }
+
 @media screen and (max-width: 400px) {
-  nav .linksinnav li a{
+  nav .linksinnav li a {
     font-size: 10px;
   }
 }
 
 
 @media screen and (max-width: 700px) {
-  nav ul li a{
+  nav ul li a {
     font-size: 10px;
-    
+
   }
 }
 
 
-@media screen and (max-width: 700px)
-{
-  .firstrow img, .secondrow img{
+@media screen and (max-width: 700px) {
+
+  .firstrow img,
+  .secondrow img {
     margin: 20px;
   }
 
 
-  .services{
+  .services {
     display: block;
   }
-    
+
 }
-@media screen and (max-width: 1233px){
-  .linediv2{
+
+@media screen and (max-width: 1233px) {
+  .linediv2 {
     display: none;
   }
-  .frame3 .service-grid{
-    grid-template-columns: 50% 50% !important
-    ;
+
+  .frame3 .service-grid {
+    grid-template-columns: 50% 50% !important;
   }
 }
 
-@media screen and (max-width: 890px){
-  .desc p{
+@media screen and (max-width: 890px) {
+  .desc p {
     font-size: 20px;
     line-height: 35px;
   }
-  .matter{
+
+  .matter {
     margin: 0 auto;
-    .matter-desc p{
+
+    .matter-desc p {
       font-size: 24px;
     }
   }
-  
-  
-  .numbers-desc{
+
+
+  .numbers-desc {
     // display:flex;
     justify-content: center;
     flex-direction: column;
 
   }
-  .matter{
+
+  .matter {
     // display: block;
-    width: 80%;max-width: 100%;
+    width: 80%;
+    max-width: 100%;
   }
-  .linediv{
+
+  .linediv {
     display: none;
   }
-  .info h2{
+
+  .info h2 {
     font-size: 20px;
   }
-  .footer1{
+
+  .footer1 {
     height: auto;
-  display: block;  }
+    display: block;
+  }
 }
 
 
 
 
-@media screen and (max-width: 960px){
-  .getintouch{
-   flex-direction: column;
-   .info p {
-    // font-size: 20px;
-    margin-top: 30px;
-   }
+@media screen and (max-width: 1200px) {
+
+  .servicebox .mainbox .row1 {
+    grid-template-columns: repeat(2, 1fr);
+
   }
-  .line{
+
+  .getintouch {
+    flex-direction: column;
+
+    .info p {
+      // font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+
+  .line {
     display: none;
   }
-  .footercontents ul li{
-    display: flex; 
+
+  .footercontents ul li {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    a{
+
+    a {
       text-align: center;
     }
   }
+
   .footercontents {
     display: flex;
     justify-content: center;
   }
-  .footer2{
+
+  .footer2 {
     flex-direction: column;
   }
-  .footercontents ul{
+
+  .footercontents ul {
     padding: 0;
   }
 
 }
 
-@media screen and (max-width: 1200px){
-  .container{
+@media screen and (max-width: 1200px) {
+  .container {
     max-width: 850px;
   }
 }
-@media screen and (max-width: 1000px)
-{
-  .container{
+
+@media screen and (max-width: 1000px) {
+  .container {
     max-width: 650px;
   }
 }
-@media screen and (max-width: 800px)
-{
-  .container{
+
+@media screen and (max-width: 800px) {
+  .container {
     max-width: 450px;
   }
 }
 
+@media only screen and (max-width: 1180px) {
+  header nav {
+    .logoimg {
+      margin-left: 0;
+    }
+
+    .linksinnav ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 20px;
+      margin: 50px 0;
+      left: 0;
+      width: 100%;
+      background-color: #fffefe;
+    }
+
+    .linksinnav ul.active {
+      display: flex;
+    }
+
+    .linksinnav li {
+      // margin: 20px;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid rgb(112, 104, 104);
+    }
+      .button button {
+        display: none;
+      }
+
+      .hamburger-menu {
+        display: flex;
+        // margin-right: 20px;
+        background-color: rgb(255, 255, 255);
+        flex-direction: column;
+        border-radius: 30px;
+        cursor: pointer;
+
+
+        &:hover {
+          background-color: rgb(180, 174, 174);
+        }
+
+
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+  
+    .contact-detls-div{
+      display: block;
+      flex-wrap: wrap;
+    }
+    .cntctdiv-child{
+      padding-bottom: 50px;
+    }
+    .new-child{
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width:800px){
+    .servicebox .mainbox .row1 {
+      grid-template-columns: repeat(1, 1fr);
+  
+    }
+    .single{
+      min-height: 290px;
+    }
+  }

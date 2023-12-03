@@ -16,24 +16,60 @@ nav {
       // left: 30px;
     }
   }
+  .linksinnav {
+    align-items: center;
+    display: flex;
+  }ul {
+    list-style: none;
+    display: flex;
+    
+    margin: 20px 0;
+}
+
+.linksinnav li {
+    margin-right: 20px;
+}
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    background-color:#F68C42;
+    right: 5px;
+    top: 30px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: orange;
+    margin: 5px 0;
+    border-radius: 30px;
+}
 
   ul {
     display: flex;
     justify-content: space-between;
     padding: 0;
+    
   }
 
   li {
     font-family: $mainFont;
     margin: 18px 20px;
+    
 
     a {
       color: #353766;
       font-size: 16px;
       font-weight: 300;
       text-transform: uppercase;
+      align-items: center;
       &:hover {
         color: orange;
+        font-weight: bolder;
+        text-decoration: underline;
       }
     }
   }
